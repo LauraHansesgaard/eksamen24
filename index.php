@@ -14,34 +14,7 @@
         <a href="index.php">
             <img src="billeder/nytlogo.png" class="logo">
         </a>
-
-
-        <div class="dropdown-container">
-            <img src="billeder/burgermenu.png" class="dropdown-image">
-
-            <!-- Dropdown Content -->
-            <div class="dropdown-content">
-                <a href="#">Madspild</a>
-                <!-- Nested Dropdown for Madspild -->
-                <div class="nested-dropdown">
-                    <a href="#">Tips og tricks</a>
-                    <a href="#">Supermarkeder</a>
-                </div>
-
-                <a href="#">Retter og måltider</a>
-                <!-- Nested Dropdown for Retter og Måltider -->
-                <div class="nested-dropdown">
-                    <a href="madgenerator.php">Madgenerator</a>
-                    <a href="#">Madplan</a>
-                </div>
-
-                <a href="#">Donationsbank</a>
-                <a href="#">Madpyramiden</a>
-            </div>
-
-        </div>
-
-
+        
         <li>
             <a href="#">Madspild</a>
             <ul class="dropdown">

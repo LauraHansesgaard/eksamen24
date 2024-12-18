@@ -1,0 +1,82 @@
+*{
+    background-color: #E0D4C6;
+    margin: 0px;
+    font-family: "Helvetica Neue";
+}
+nav {
+    padding: 10px 20px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.logo{
+    width: 100px;
+    padding: 10px;
+    margin-left: -170px;
+    margin-top: -25px;
+}
+li {
+    position: relative; /* Needed for positioning the dropdown */
+    margin-right: 20px;
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+    color: #1F3A20;
+    font-size: 18px;
+    display: block;
+    font-weight: bolder;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+    display: none; /* Hidden by default */
+    position: absolute;
+    padding-bottom: 15px;
+    list-style: none;
+    top: 100%; /* Position dropdown below the parent */
+    left: 100px;
+}
+
+.dropdown a {
+    color: #1F3A20;
+    font-weight: normal;
+    margin-left: 70px;
+}
+
+/* Show Dropdown on Hover */
+li:hover .dropdown {
+    display: block; /* Show the dropdown */
+}
+
+.bjælke1{
+    background-color: #557D56;
+    height: 50px;
+}
+
+h1{
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 360px;
+}
+
+.indtast{
+    margin-left: 360px;
+    margin-top: 100px;
+}
+
+.indtast2{
+    margin-left: 616px;
+    margin-top: -196px;
+}
+
+.knap{
+    margin-left: 300px;
+    margin-top: 50px;
+}
