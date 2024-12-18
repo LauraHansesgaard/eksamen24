@@ -5,101 +5,14 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-
-    <style>
-        *{
-            background-color: #E0D4C6;
-            margin: 0px;
-            font-family: "Helvetica Neue";
-        }
-        nav {
-            padding: 10px 20px;
-        }
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-
-        .logo{
-            width: 100px;
-            padding: 10px;
-            margin-left: -170px;
-            margin-top: -25px;
-        }
-        li {
-            position: relative; /* Needed for positioning the dropdown */
-            margin-right: 20px;
-            margin-top: 20px;
-        }
-        a {
-            text-decoration: none;
-            color: #1F3A20;
-            font-size: 18px;
-            display: block;
-            font-weight: bolder;
-            margin-left: 170px;
-            margin-top: 30px;
-        }
-
-        /* Dropdown Menu Styles */
-        .dropdown {
-            display: none; /* Hidden by default */
-            position: absolute;
-            padding-bottom: 15px;
-            list-style: none;
-            top: 100%; /* Position dropdown below the parent */
-            left: 100px;
-        }
-
-        .dropdown a {
-            color: #1F3A20;
-            font-weight: normal;
-            margin-left: 70px;
-        }
-
-        /* Show Dropdown on Hover */
-        li:hover .dropdown {
-            display: block; /* Show the dropdown */
-        }
-
-        .bjælke1{
-            background-color: #557D56;
-            height: 50px;
-        }
-
-        h1{
-            font-size: 20px;
-            margin-top: 60px;
-            margin-left: 360px;
-        }
-
-        .indtast{
-            margin-left: 360px;
-            margin-top: 100px;
-        }
-
-        .indtast2{
-            margin-left: 616px;
-            margin-top: -196px;
-        }
-
-        .knap{
-            margin-left: 300px;
-            margin-top: 50px;
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="madgenerator.css">
 
 </head>
 <body>
 
 <nav>
     <ul>
-        <a href="prøver.php">
+        <a href="index.php">
             <img src="billeder/nytlogo.png" class="logo">
         </a>
         <li>
@@ -161,6 +74,39 @@
         </div>
     </form>
 </div>
+
+
+<footer>
+    <img src="billeder/køge.png" class="køgelogo">
+    <div class="line">
+        <div></div>
+    </div>
+    <h3>KØGE KOMMUNE</h3>
+    <br>
+    <h4>Køge Kommune <br><br> Torvet 1 <br><br> DK-4600 Køge <br><br> CVR-nr. 29189374</h4>
+    <br>
+    <br>
+    <h6>&copy; Bekæmp Madspild.</h6>
+
+    <div class="følg">
+        <h5 style="background-color: #557D56">FØLG</h5>
+        <img src="billeder/socialemedier.png" class="socialemedier">
+    </div>
+
+    <div class="personligeoplysninger">
+        Håndtering af personlige oplysninger
+    </div>
+    <div class="betingelser">
+        Betingelser for brug
+    </div>
+    <div class="politik">
+        Cookie politik
+    </div>
+    <div class="cookies">
+        Vælg en anden cookies
+    </div>
+</footer>
+
 
 <script>
     /*den validerer vores form*/
