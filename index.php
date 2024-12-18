@@ -121,6 +121,7 @@
 
     // Kald funktionen, når siden indlæses
     window.onload = visTilfaeldigKommentar;
+
 </script>
 </body>
 </html>
