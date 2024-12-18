@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="forside.css"
+    <link rel="stylesheet" href="forside.css">
 </head>
 <body>
 
@@ -18,7 +18,7 @@
         <li>
             <a href="#">Madspild</a>
             <ul class="dropdown">
-                <li><a href="#">Tips og tricks</a></li>
+                <li><a href="tipsogtricks.php">Tips og tricks</a></li>
                 <li><a href="supermarkeder.php">Supermarkeder</a></li>
             </ul>
         </li>
