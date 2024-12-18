@@ -1,0 +1,902 @@
+*{
+    background-color: #E0D4C6;
+    margin: 0px;
+    font-family: "Helvetica Neue";
+}
+
+/* Breakpoint for tablets (768px og mindre) */
+@media (max-width: 768px){
+    nav {
+        padding: 10px 20px;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    .logo{
+        width: 100px;
+        padding: 10px;
+        margin-left: -170px;
+        margin-top: -25px;
+    }
+    li {
+        display: none;
+        position: relative; /* Needed for positioning the dropdown */
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: #1F3A20;
+        font-size: 18px;
+        display: block;
+        font-weight: bolder;
+        margin-left: 170px;
+        margin-top: 30px;
+    }
+
+    /* Dropdown Menu Styles */
+    .dropdown {
+        display: none; /* Hidden by default */
+        position: absolute;
+        padding-bottom: 15px;
+        list-style: none;
+        top: 100%; /* Position dropdown below the parent */
+        left: 100px;
+    }
+
+    .dropdown a {
+        color: #1F3A20;
+        font-weight: normal;
+        margin-left: 70px;
+    }
+
+    /* Show Dropdown on Hover */
+    li:hover .dropdown {
+        display: block; /* Show the dropdown */
+    }
+
+    /* Dropdown Container */
+    .dropdown-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* The Image */
+    .dropdown-image {
+        width: 70px;
+        margin-top: 45px;
+        margin-left: 140px;
+        height: auto;
+        cursor: pointer;
+        border: 2px solid #ddd;
+        border-radius: 5px;
+    }
+
+    /* Dropdown Content */
+    .dropdown-content {
+        display: none; /* Hidden by default */
+        position: absolute;
+        top: 100%; /* Positioned below the image */
+        background-color: #E0D4C6;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        border-radius: 5px;
+    }
+
+    /* Display dropdown when hovering over the container */
+    .dropdown-container:hover .dropdown-content {
+        display: block;
+    }
+
+
+    /* Nested dropdown styling */
+    .nested-dropdown {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 100%;
+        background-color: #E0D4C6;
+        width: 100px;
+        padding-right: 100px;
+    }
+
+    /* Show nested dropdown on hover */
+    .dropdown-content a:hover + .nested-dropdown {
+        display: block;
+    }
+
+    /* Nested dropdown link styles */
+    .nested-dropdown a {
+        padding: 5px 5px;
+    }
+
+    .dropdown-content a {
+        display: block;
+        padding: 10px 15px;
+        color: #333;
+        text-align: left;
+        margin-left: 0px;
+        width: 200px;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #557D56;
+    }
+
+    /* Show Dropdown on Hover */
+    .dropdown-container:hover .dropdown-content {
+        display: block;
+    }
+
+    .bjælke1 {
+        background-color: #557D56;
+        height: 50px;
+    }
+
+    video {
+        width: 430px;
+        margin-top: 30px;
+
+    }
+
+    .undervideo{
+        background-color: #557D56;
+        height: 50px;
+        margin-top: 25px;
+    }
+
+    .viden{
+        background-color: #D0C1AF;
+        height: 500px;
+    }
+
+    h1{
+        margin-left: 20px;
+        background-color: #D0C1AF;
+        color: #1F3A20;
+        padding-top: 20px;
+        font-size: 30px;
+    }
+
+    #kommentarBox{
+        margin-left: 20px;
+        margin-top: 30px;
+        font-size: 20px;
+        margin-right: 0px;
+        background-color: #D0C1AF;
+    }
+
+    .stopmadspild{
+        height: 200px;
+        margin-left: 180px;
+        margin-top: 100px;
+        background-color: #D0C1AF;
+    }
+
+    h2{
+        color: #1F3A20;
+        margin-left: 100px;
+        margin-top: 90px;
+        font-size: 30px;
+    }
+
+    #image-container{
+        margin-top: 50px;
+    }
+
+    .billede{
+        height: 110px;
+    }
+
+    #favoritter{
+        display: grid;
+        grid-template-columns: 33fr 33fr 33fr;
+        margin-top: -54px;
+    }
+
+    .fav{
+        background-color: #F9E489;
+        border: none;
+        cursor: pointer;
+        font-size: 10px;
+        font-weight: bold;
+        margin-top: 50px;
+        padding: 10px;
+        width: 138px;
+
+    }
+
+    .fav:hover{
+        text-decoration: underline;
+        background-color: #FFD41C;
+    }
+
+
+    footer {
+        background-color: #557D56;
+        margin-top: 100px;
+        position: relative;
+        width: 100%;
+    }
+
+    .køgelogo{
+        width: 110px;
+        background-color: #557D56;
+        margin-left: -20px;
+    }
+
+    .line{
+        background-color: #1F3A20;
+        height: 2px;
+        width: 105px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+
+    h3{
+        background-color: #557D56;
+        color: #1F3A20;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    h4{
+        background-color: #557D56;
+        font-size: 10px;
+        font-weight: normal;
+        margin-left: 20px;
+    }
+
+
+
+    h6{
+        background-color: #557D56;
+        font-size: 10px;
+        font-weight: normal;
+        margin-left: 20px;
+    }
+
+    .følg{
+        position: absolute;
+        margin-left: 310px;
+        margin-top: -168px;
+        font-size: 14px;
+        color: #1F3A20;
+    }
+
+    .socialemedier{
+        width: 100px;
+        background-color: #557D56;
+        margin-bottom: -6px;
+        padding-top: 20px;
+    }
+
+    .personligeoplysninger{
+        background-color: #557D56;
+        position: absolute;
+        margin-left: 300px;
+        text-decoration: underline;
+        margin-top: -20px;
+        color: #1F3A20;
+        font-size: 6px;
+        display: none;
+    }
+
+    .betingelser{
+        background-color: #557D56;
+        position: absolute;
+        margin-left: 200px;
+        text-decoration: underline;
+        margin-top: -20px;
+        color: #1F3A20;
+        font-size: 7px;
+        display: none;
+    }
+
+    .politik{
+        background-color: #557D56;
+        position: absolute;
+        margin-left: 825px;
+        text-decoration: underline;
+        margin-top: -20px;
+        color: #1F3A20;
+        font-size: 12px;
+        display: none;
+    }
+
+    .cookies{
+        background-color: #557D56;
+        position: absolute;
+        margin-left: 650px;
+        text-decoration: underline;
+        margin-top: -20px;
+        color: #1F3A20;
+        font-size: 12px;
+        display: none;
+    }
+}
+
+@media (min-width: 769px){
+    nav {
+        padding: 10px 20px;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    .logo{
+        width: 130px;
+        padding: 10px;
+        margin-left: -110px;
+        margin-top: -50px;
+    }
+    li {
+        position: relative; /* Needed for positioning the dropdown */
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: #1F3A20;
+        font-size: 15px;
+        display: block;
+        font-weight: bolder;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    /* Dropdown Menu Styles */
+    .dropdown {
+        display: none; /* Hidden by default */
+        position: absolute;
+        padding-bottom: 15px;
+        list-style: none;
+        top: 100%; /* Position dropdown below the parent */
+        left: 100px;
+    }
+
+    .dropdown a {
+        color: #1F3A20;
+        font-weight: normal;
+        margin-left: 70px;
+    }
+
+    /* Show Dropdown on Hover */
+    li:hover .dropdown {
+        display: block; /* Show the dropdown */
+    }
+
+    /* Dropdown Container */
+    .dropdown-container {
+        position: relative;
+        display: none;
+    }
+
+    /* The Image */
+    .dropdown-image {
+        width: 70px;
+        margin-top: 45px;
+        margin-left: 140px;
+        height: auto;
+        cursor: pointer;
+        border: 2px solid #ddd;
+        border-radius: 5px;
+    }
+
+    /* Dropdown Content */
+    .dropdown-content {
+        display: none; /* Hidden by default */
+        position: absolute;
+        top: 100%; /* Positioned below the image */
+        left: 0;
+        background-color: #fff;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        border-radius: 5px;
+    }
+
+    .dropdown-content a {
+        display: none;
+        padding: 10px 15px;
+        color: #333;
+        text-align: left;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* Show Dropdown on Hover */
+    .dropdown-container:hover .dropdown-content {
+        display: none;
+    }
+
+    .bjælke1 {
+        background-color: #557D56;
+        height: 50px;
+    }
+
+    video {
+        width: 1024px;
+        background-color: #0a3622;
+        margin-top: 30px;
+    }
+
+    .undervideo{
+        background-color: #557D56;
+        height: 50px;
+        margin-top: 25px;
+    }
+
+    .viden{
+        background-color: #D0C1AF;
+        height: 420px;
+    }
+
+    h1{
+        margin-left: 100px;
+        background-color: #D0C1AF;
+        color: #1F3A20;
+        padding-top: 100px;
+        font-size: 40px;
+    }
+
+    #kommentarBox{
+        margin-left: 100px;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-right: 500px;
+        background-color: #D0C1AF;
+    }
+
+    .stopmadspild{
+        height: 249px;
+        margin-left: 680px;
+        margin-top: -280px;
+        background-color: #D0C1AF;
+    }
+
+    h2{
+        color: #1F3A20;
+        margin-left: 355px;
+        margin-top: 160px;
+        font-size: 40px;
+    }
+
+    #image-container{
+        display: grid;
+        grid-template-columns: 33fr 33fr 33fr;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 50px;
+    }
+
+    .billede{
+        height: 250px;
+    }
+
+    #favoritter{
+        display: grid;
+        grid-template-columns: 33fr 33fr 33fr;
+        margin-left: 20px;
+        margin-top: -30px;
+        margin-right: 20px;
+        margin-bottom: 180px;
+    }
+
+    .fav{
+        background-color: #F9E489;
+        color: #1F3A20;
+        padding: 20px 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 23px;
+        font-weight: bold;
+        margin-top: 30px;
+        width: 315px;
+    }
+
+    .fav:hover{
+        text-decoration: underline;
+        background-color: #FFD41C;
+    }
+
+
+    footer {
+        background-color: #557D56;
+        padding: 20px 0;
+        position: relative;
+        width: 100%;
+    }
+
+    .køgelogo{
+        width: 160px;
+        background-color: #557D56;
+        margin-left: 30px;
+    }
+
+    .line{
+        background-color: #1F3A20;
+        height: 2px;
+        width: 200px;
+        border-radius: 10px;
+        margin-left: 30px;
+    }
+
+    h3{
+        background-color: #557D56;
+        color: #1F3A20;
+        font-size: 23px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+
+    h4{
+        background-color: #557D56;
+        font-size: 15px;
+        font-weight: normal;
+        margin-left: 30px;
+    }
+
+
+
+    h6{
+        background-color: #557D56;
+        font-size: 15px;
+        font-weight: normal;
+        margin-left: 30px;
+    }
+
+    .følg{
+        position: absolute;
+        margin-left: 750px;
+        margin-top: -225px;
+        font-size: 25px;
+        color: #1F3A20;
+    }
+
+    .socialemedier{
+        background-color: #557D56;
+        margin-bottom: -6px;
+        padding-top: 20px;
+    }
+
+    .personligeoplysninger{
+        background-color: #557D56;
+        position: absolute;
+        margin-left: 750px;
+        text-decoration: underline;
+        margin-top: -20px;
+        color: #1F3A20;
+        font-size: 10px;
+    }
+
+    .betingelser{
+        background-color: #557D56;
+        position: absolute;
+        margin-left: 650px;
+        text-decoration: underline;
+        margin-top: -20px;
+        color: #1F3A20;
+        font-size: 10px;
+
+    }
+
+    .politik{
+        background-color: #557D56;
+        position: absolute;
+        margin-left: 565px;
+        text-decoration: underline;
+        margin-top: -20px;
+        color: #1F3A20;
+        font-size: 10px;
+    }
+
+    .cookies{
+        background-color: #557D56;
+        position: absolute;
+        margin-left: 440px;
+        text-decoration: underline;
+        margin-top: -20px;
+        color: #1F3A20;
+        font-size: 10px;
+    }
+}
+
+/* Breakpoint for desktops (1024px og større) */
+@media (min-width: 1025px){
+    nav {
+        padding: 10px 20px;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    .logo{
+        width: 100px;
+        padding: 10px;
+        margin-left: -170px;
+        margin-top: -25px;
+    }
+    li {
+        position: relative; /* Needed for positioning the dropdown */
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: #1F3A20;
+        font-size: 18px;
+        display: block;
+        font-weight: bolder;
+        margin-left: 170px;
+        margin-top: 30px;
+    }
+
+    /* Dropdown Menu Styles */
+    .dropdown {
+        display: none; /* Hidden by default */
+        position: absolute;
+        padding-bottom: 15px;
+        list-style: none;
+        top: 100%; /* Position dropdown below the parent */
+        left: 100px;
+    }
+
+    .dropdown a {
+        color: #1F3A20;
+        font-weight: normal;
+        margin-left: 70px;
+    }
+
+    /* Show Dropdown on Hover */
+    li:hover .dropdown {
+        display: block; /* Show the dropdown */
+    }
+
+    /* Dropdown Container */
+    .dropdown-container {
+        position: relative;
+        display: none;
+    }
+
+    /* The Image */
+    .dropdown-image {
+        width: 70px;
+        margin-top: 45px;
+        margin-left: 140px;
+        height: auto;
+        cursor: pointer;
+        border: 2px solid #ddd;
+        border-radius: 5px;
+    }
+
+    /* Dropdown Content */
+    .dropdown-content {
+        display: none; /* Hidden by default */
+        position: absolute;
+        top: 100%; /* Positioned below the image */
+        background-color: white;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        border-radius: 5px;
+    }
+
+    .dropdown-content a {
+        display: none;
+        padding: 10px 15px;
+        text-align: left;
+        margin-left: -50px;
+    }
+
+    .dropdown-content a:hover {
+
+    }
+
+    /* Show Dropdown on Hover */
+    .dropdown-container:hover .dropdown-content {
+        display: none;
+    }
+
+
+    .bjælke1{
+        background-color: #557D56;
+        height: 50px;
+    }
+
+    video {
+        width: 1508px;
+        max-width: 2000px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-top: 30px;
+    }
+
+    .undervideo{
+        background-color: #557D56;
+        height: 50px;
+        margin-top: 25px;
+    }
+
+    .viden{
+        background-color: #D0C1AF;
+        height: 380px;
+    }
+
+    h1{
+        margin-left: 100px;
+        background-color: #D0C1AF;
+        color: #1F3A20;
+        padding-top: 100px;
+        font-size: 40px;
+    }
+
+    #kommentarBox{
+        margin-left: 100px;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-right: 600px;
+        background-color: #D0C1AF;
+    }
+
+    .stopmadspild{
+        height: 249px;
+        margin-left: 1100px;
+        margin-top: -190px;
+        background-color: #D0C1AF;
+    }
+
+    h2{
+        color: #1F3A20;
+        margin-left: 600px;
+        margin-top: 160px;
+        font-size: 40px;
+    }
+
+    #image-container{
+        display: grid;
+        grid-template-columns: 33fr 33fr 33fr;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 50px;
+    }
+
+    .billede{
+        height: 332px;
+    }
+
+    #favoritter{
+        display: grid;
+        grid-template-columns: 33fr 33fr 33fr;
+        margin-bottom: 180px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .fav{
+        background-color: #F9E489;
+        color: #1F3A20;
+        padding: 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+        width: 420px;
+    }
+
+    .fav:hover{
+        text-decoration: underline;
+        background-color: #FFD41C;
+    }
+
+
+    footer {
+        background-color: #557D56;
+        padding: 20px 0;
+        position: relative;
+        width: 100%;
+    }
+
+    .køgelogo{
+        width: 160px;
+        background-color: #557D56;
+        margin-left: 100px;
+    }
+
+    .line{
+        background-color: #1F3A20;
+        height: 2px;
+        width: 200px;
+        border-radius: 10px;
+        margin-left: 155px;
+    }
+
+    h3{
+        background-color: #557D56;
+        color: #1F3A20;
+        font-size: 23px;
+        margin-left: 155px;
+        margin-top: 5px;
+    }
+
+    h4{
+        background-color: #557D56;
+        font-size: 15px;
+        font-weight: normal;
+        margin-left: 155px;
+    }
+
+
+
+    h6{
+        background-color: #557D56;
+        font-size: 15px;
+        font-weight: normal;
+        margin-left: 155px;
+    }
+
+    .følg{
+        position: absolute;
+        margin-left: 1100px;
+        margin-top: -225px;
+        font-size: 23px;
+        color: #1F3A20;
+    }
+
+    .socialemedier{
+        background-color: #557D56;
+        margin-bottom: -6px;
+        padding-top: 20px;
+    }
+
+    .personligeoplysninger{
+        background-color: #557D56;
+        position: absolute;
+        margin-left: 1100px;
+        text-decoration: underline;
+        margin-top: -20px;
+        color: #1F3A20;
+        font-size: 12px;
+    }
+
+    .betingelser{
+        background-color: #557D56;
+        position: absolute;
+        margin-left: 950px;
+        text-decoration: underline;
+        margin-top: -20px;
+        color: #1F3A20;
+        font-size: 12px;
+    }
+
+    .politik{
+        background-color: #557D56;
+        position: absolute;
+        margin-left: 825px;
+        text-decoration: underline;
+        margin-top: -20px;
+        color: #1F3A20;
+        font-size: 12px;
+    }
+
+    .cookies{
+        background-color: #557D56;
+        position: absolute;
+        margin-left: 650px;
+        text-decoration: underline;
+        margin-top: -20px;
+        color: #1F3A20;
+        font-size: 12px;
+    }
+}
