@@ -48,8 +48,11 @@
 <section class="købmand">
     <div class="rema">
         <img src="billeder/rema.png" class="købmand">
-        <button class="knaprema" href="rema.html">Rema</button>
+        <button class="knaprema">Rema</a></button>
+
+        
     </div>
+
 
 
     <div class="bilka">

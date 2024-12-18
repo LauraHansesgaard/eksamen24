@@ -40,7 +40,7 @@
 
 <h1>Indtast det du har i køleskabet</h1>
 <div class="indtast">
-    <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
+    <form name="myForm" action="opskrifter.php" onsubmit="return validateForm()" method="post">
         GRØNTSAGER
         <br>
         <input type="text" name="fbryst">

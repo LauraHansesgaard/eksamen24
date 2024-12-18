@@ -845,7 +845,6 @@
     h1 {
         font-size: 40px;
         color: #1F3A20;
-        font-family: Helvetica;
         margin-top: 180px;
         margin-left: 140px;
         margin-bottom: 30px;
@@ -854,12 +853,11 @@
     h2 {
         font-size: 15px;
         color: #1F3A20;
-        font-family: Helvetica light;
         margin-top: 30px;
         margin-left: 140px;
         margin-right: 540px;
         margin-bottom: 40px;
-        font-weight: lighter;
+        font-weight: normal;
     }
 
 
@@ -873,6 +871,7 @@
         grid-template-columns:  33fr 33fr 33fr;
     }
 
+
     .rema{
         width: 350px;
         border-radius: 10px;
@@ -880,6 +879,7 @@
         margin-bottom: 0px;
         margin-left: 120px;
     }
+
 
     .knaprema{
         background-color: #F9E489;
@@ -891,6 +891,12 @@
         border-radius: 10px;
         font-size: x-large;
     }
+
+    .remaa{
+        margin-left: -50px;
+        font-size: 40px;
+    }
+
 
     .bilka{
         width: 350px;

@@ -67,43 +67,124 @@
         height: 50px;
     }
 
-    h1 {
-        font-size: 20px;
-        margin-top: 100px;
+    .rema{
+        width: 350px;
+        margin-top: 30px;
         margin-left: 20px;
+    }
+
+    h1{
+        font-size: 10px;
+        color: #1F3A20;
+        font-family: Helvetica;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+        font-weight: lighter;
+    }
+
+    .overskrift{
+        font-size: 11px;
+        margin-left: 40px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        font-weight: bold;
+
+    }
+
+    .information{
+        margin-left: 40px;
+        margin-right: 200px;
+        font-family: Helvetica;
         font-weight: normal;
+        font-size: 10px;
     }
 
-    input {
-        width: 150px;
-        height: 40px;
-        background-color: white;
-        border: none;
-        border-radius: 5px;
-        font-size: 12px;
+    .klistermærke{
+        width: 145px;
+        margin-left: 88px;
+        margin-top: -65px;
     }
 
-    .indtast {
-        margin-left: 20px;
+    .klistermærke2{
+        width: 120px;
+        margin-left: 13px;
         margin-top: 100px;
+
+    }
+
+    .overskrift2{
+        font-size: 17px;
+        margin-left: 200px;
+        margin-top: -230px;
+        margin-bottom: 40px;
         font-weight: bold;
-        font-size: 20px;
+        margin-right: 70px;
     }
 
 
-    .indtast2 {
-        margin-left: 235px;
-        margin-top: -280px;
+    .information2{
+        margin-left: 200px;
+        margin-right: 30px;
+        font-weight: normal;
+        font-size: 10px;
+        margin-top: -15px;
+    }
+
+    .klistermærke3{
+        width: 120px;
+        margin-left: 98px;
+        margin-top: 80px;
+
+    }
+
+    .overskrift3{
+        font-size: 17px;
+        margin-left: 40px;
+        margin-right: 50px;
+        margin-top: -190px;
+        margin-bottom: 30px;
         font-weight: bold;
     }
 
-    .knap {
-        margin-left: 120px;
-        margin-top: 100px;
+
+    .information3{
+        margin-left: 40px;
+        margin-right: 150px;
+        margin-top: 20px;
+        font-weight: normal;
+        font-size: 10px;
+    }
+
+    .klistermærke4{
+        width: 120px;
+        margin-left: 13px;
+        margin-top: 70px;
+        margin-bottom: 350px;
+    }
+
+    .overskrift4{
+        font-size: 17px;
+        margin-left: 200px;
+        margin-top: -820px;
         margin-bottom: 150px;
+        margin-right: 40px;
+        font-weight: bold;
     }
 
-    footer{
+
+    .information4{
+        margin-left: 200px;
+        margin-right: 40px;
+        margin-top: -120px;
+        font-weight: normal;
+        font-size: 10px;
+        margin-bottom: 150px;
+
+    }
+
+    footer {
         background-color: #557D56;
         margin-top: 100px;
         position: relative;
@@ -208,8 +289,6 @@
     }
 }
 
-
-
 @media (min-width: 769px){
     nav {
         padding: 10px 20px;
@@ -270,41 +349,121 @@
         height: 50px;
     }
 
-    h1 {
+    .rema{
+        width: 650px;
+        margin-left: 90px;
+        margin-top: 60px;
+    }
+
+    h1{
         font-size: 20px;
-        margin-top: 80px;
-        margin-left: 110px;
+        color: #1F3A20;
+        margin-top: 100px;
+        margin-left: 120px;
+        margin-right: 180px;
+        margin-bottom: 150px;
         font-weight: normal;
     }
 
-    input {
-        width: 300px;
-        height: 50px;
-        background-color: white;
-        border: none;
-        border-radius: 5px;
+    .overskrift{
+        font-size: larger;
+        margin-left: 120px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        font-weight: bold;
+
+    }
+
+    .information{
+        margin-left: 120px;
+        margin-right: 400px;
+        font-family: Helvetica;
+        font-weight: normal;
         font-size: 20px;
     }
 
-    .indtast {
-        margin-left: 110px;
-        margin-top: 100px;
+    .klistermærke{
+        width: 190px;
+        margin-left: 230px;
+        margin-top: -80px;
+    }
+
+    .klistermærke2{
+        width: 160px;
+        margin-left: 40px;
+        margin-top: 110px;
+
+    }
+
+    .overskrift2{
+        font-size: x-large;
+        margin-left: 400px;
+        margin-top: -270px;
+        margin-bottom: 40px;
         font-weight: bold;
+    }
+
+
+    .information2{
+        margin-left: 400px;
+        margin-right: 160px;
+        font-family: Helvetica;
+        font-weight: normal;
         font-size: 20px;
     }
 
+    .klistermærke3{
+        width: 180px;
+        margin-left: 240px;
+        margin-top: 90px;
 
-    .indtast2 {
-        margin-left: 516px;
-        margin-top: -300px;
+    }
+
+    .overskrift3{
+        font-size: x-large;
+        margin-left: 120px;
+        margin-right: 400px;
+        margin-top: -230px;
+        margin-bottom: 30px;
         font-weight: bold;
     }
 
-    .knap {
-        margin-left: 250px;
-        margin-top: 100px;
+
+    .information3{
+        margin-left: 120px;
+        margin-right: 420px;
+        margin-top: 20px;
+        font-family: Helvetica;
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    .klistermærke4{
+        width: 180px;
+        margin-left: 40px;
+        margin-top: 105px;
+        margin-bottom: 350px;
+    }
+
+    .overskrift4{
+        font-size: x-large;
+        margin-left: 500px;
+        margin-top: -870px;
         margin-bottom: 150px;
+        font-weight: bold;
     }
+
+
+    .information4{
+        margin-left: 500px;
+        margin-right: 80px;
+        margin-top: -120px;
+        font-weight: normal;
+        font-size: 20px;
+        margin-bottom: 150px;
+
+    }
+
 
     footer {
         background-color: #557D56;
@@ -405,12 +564,12 @@
         color: #1F3A20;
         font-size: 10px;
     }
-
 }
+
 
 /* Breakpoint for desktops (1024px og større) */
 @media (min-width: 1025px) {
-    nav{
+    nav {
         padding: 10px 20px;
     }
 
@@ -470,41 +629,130 @@
         height: 50px;
     }
 
+    .rema {
+        width: 900px;
+        margin-left: 160px;
+        margin-top: 60px;
+    }
+
+
     h1 {
-        font-size: 20px;
-        margin-top: 80px;
-        margin-left: 310px;
+        font-size: 25px;
+        color: #1F3A20;
+        margin-top: 100px;
+        margin-left: 160px;
+        margin-right: 200px;
         font-weight: normal;
     }
 
-    input {
-        width: 300px;
-        height: 50px;
-        background-color: white;
-        border: none;
-        border-radius: 5px;
-        font-size: 20px;
+    h2 {
+        font-size: xx-large;
+        margin-left: 0px;
+        margin-top: 90px;
+        margin-bottom: 60px;
     }
 
-    .indtast {
-        margin-left: 310px;
-        margin-top: 100px;
-        font-weight: bold;
-        font-size: 20px;
-    }
-
-
-    .indtast2 {
-        margin-left: 616px;
-        margin-top: -300px;
+    .overskrift {
+        font-size: larger;
+        margin-left: 160px;
+        margin-top: 150px;
         font-weight: bold;
     }
 
-    .knap {
-        margin-left: 300px;
-        margin-top: 100px;
-        margin-bottom: 150px;
+    .information {
+        margin-left: 160px;
+        margin-right: 800px;
+        font-family: Helvetica;
+        font-weight: lighter;
+        font-size: 25px;
     }
+
+    .klistermærke {
+        width: 380px;
+        margin-left: 320px;
+        margin-top: -150px;
+
+    }
+
+    .klistermærke2 {
+        width: 320px;
+        margin-left: 30px;
+        margin-top: 130px;
+
+    }
+
+    .overskrift2 {
+        font-size: xx-large;
+        margin-left: 800px;
+        margin-top: -390px;
+        margin-bottom: 60px;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+
+    .information2 {
+        margin-left: 800px;
+        margin-right: 80px;
+        margin-top: 0px;
+        font-family: Helvetica;
+        font-weight: lighter;
+        font-size: 25px;
+    }
+
+
+    .klistermærke3 {
+        width: 350px;
+        margin-left: 335px;
+        margin-top: 130px;
+
+    }
+
+    .overskrift3 {
+        font-size: xx-large;
+        margin-left: 160px;
+        margin-top: -350px;
+        margin-bottom: 60px;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+
+    .information3 {
+        margin-left: 160px;
+        margin-right: 800px;
+        margin-top: 20px;
+        font-weight: lighter;
+        font-size: 25px;
+    }
+
+
+    .klistermærke4 {
+        width: 330px;
+        margin-left: 35px;
+        margin-top: 130px;
+        margin-bottom: 280px;
+    }
+
+    .overskrift4 {
+        font-size: xx-large;
+        margin-left: 800px;
+        margin-top: -840px;
+        margin-bottom: 60px;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+
+    .information4 {
+        margin-left: 800px;
+        margin-right: 80px;
+        margin-top: -40px;
+        font-weight: lighter;
+        font-size: 25px;
+        margin-bottom: 170px;
+    }
+
 
     footer {
         background-color: #557D56;
@@ -513,13 +761,13 @@
         width: 100%;
     }
 
-    .køgelogo{
+    .køgelogo {
         width: 160px;
         background-color: #557D56;
         margin-left: 100px;
     }
 
-    .line{
+    .line {
         background-color: #1F3A20;
         height: 2px;
         width: 200px;
@@ -527,7 +775,7 @@
         margin-left: 155px;
     }
 
-    h3{
+    h3 {
         background-color: #557D56;
         color: #1F3A20;
         font-size: 23px;
@@ -535,7 +783,7 @@
         margin-top: 5px;
     }
 
-    h4{
+    h4 {
         background-color: #557D56;
         font-size: 15px;
         font-weight: normal;
@@ -543,14 +791,14 @@
     }
 
 
-    h6{
+    h6 {
         background-color: #557D56;
         font-size: 15px;
         font-weight: normal;
         margin-left: 155px;
     }
 
-    .følg{
+    .følg {
         position: absolute;
         margin-left: 1100px;
         margin-top: -225px;
@@ -558,13 +806,13 @@
         color: #1F3A20;
     }
 
-    .socialemedier{
+    .socialemedier {
         background-color: #557D56;
         margin-bottom: -6px;
         padding-top: 20px;
     }
 
-    .personligeoplysninger{
+    .personligeoplysninger {
         background-color: #557D56;
         position: absolute;
         margin-left: 1100px;
@@ -574,7 +822,7 @@
         font-size: 12px;
     }
 
-    .betingelser{
+    .betingelser {
         background-color: #557D56;
         position: absolute;
         margin-left: 950px;
@@ -584,7 +832,7 @@
         font-size: 12px;
     }
 
-    .politik{
+    .politik {
         background-color: #557D56;
         position: absolute;
         margin-left: 825px;
@@ -594,7 +842,7 @@
         font-size: 12px;
     }
 
-    .cookies{
+    .cookies {
         background-color: #557D56;
         position: absolute;
         margin-left: 650px;
@@ -602,5 +850,7 @@
         margin-top: -20px;
         color: #1F3A20;
         font-size: 12px;
+
+
     }
 }
