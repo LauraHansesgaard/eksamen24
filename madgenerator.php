@@ -18,8 +18,8 @@
         <li>
             <a href="#">Madspild</a>
             <ul class="dropdown">
-                <li><a href="#">Tips og tricks</a></li>
-                <li><a href="#">Supermarkeder</a></li>
+                <li><a href="tipsogtricks.php">Tips og tricks</a></li>
+                <li><a href="supermarkeder.php">Supermarkeder</a></li>
             </ul>
         </li>
         <li>
@@ -41,7 +41,7 @@
 <h1>Indtast det du har i køleskabet</h1>
 <div class="indtast">
     <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
-        GRØNSAGER
+        GRØNTSAGER
         <br>
         <input type="text" name="fbryst">
         <br>
