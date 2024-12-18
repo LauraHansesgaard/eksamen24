@@ -5,10 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="forside.css">
+    <link rel="stylesheet" href="donationsbank.css"
 </head>
 <body>
-
 <nav>
     <ul>
         <a href="index.php">
@@ -38,34 +37,9 @@
 <section class="bjælke1">
 </section>
 
-<video controls> <source src="video/madspild.mp4" type="video/mp4"> </video>
+<h1> UNDER UDVIKLING... </h1>
 
-<section class="undervideo"></section>
-
-<section class="viden">
-    <h1>Vidste du...</h1>
-
-    <!--køge tiltag med javascript-->
-    <div id="kommentarBox"></div>
-
-    <img src="billeder/stopspildlokalt.png" class="stopmadspild">
-</section>
-
-
-<h2>Ugens favoritter</h2>
-
-<div id="image-container">
-    <img src="billeder/tømkøleskabet.png" class="billede">
-    <img src="billeder/gemoggivtilandre.png" class="billede">
-    <img src="billeder/tipoftheday.png" class="billede">
-</div>
-
-<div id="favoritter">
-    <button class="fav">Tøm køleskabet</button>
-    <button class="fav">Gem og giv til andre</button>
-    <button class="fav">Tip of the day</button>
-</div>
-
+<img src="billeder/smiley.png" class="smiley">
 
 <footer>
     <img src="billeder/køge.png" class="køgelogo">
@@ -97,31 +71,5 @@
         Vælg en anden cookies
     </div>
 </footer>
-
-
-
-<script>
-    // PHP array med kommentarer
-    <?php
-    $kommentarer = [
-        "Kommunen samarbejder med madspildsorganisationer og lokale initiativer for at sikre en bedre udnyttelse af fødevarer?",
-        "Køge Kommune arbejder med DK2020-planen, som inkluderer at reducere CO2-udledning, blandt andet ved at fokusere på at minimere madspild?",
-        "Der er fokus på at øge bevidstheden om madspild blandt både private og virksomheder, herunder gennem kampagner og information?",
-    ];
-    // Konverter PHP array til en JavaScript array
-    echo "const kommentarer = " . json_encode($kommentarer) . ";";
-    ?>
-
-    // Vælg en tilfældig kommentar
-    function visTilfaeldigKommentar() {
-        const tilfældigIndex = Math.floor(Math.random() * kommentarer.length);
-        const kommentar = kommentarer[tilfældigIndex];
-        document.getElementById("kommentarBox").innerText = kommentar;
-    }
-
-    // Kald funktionen, når siden indlæses
-    window.onload = visTilfaeldigKommentar;
-
-</script>
 </body>
 </html>

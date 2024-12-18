@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="opskrifter.css">
+    <link rel="stylesheet" href="madpyramiden.css"
 </head>
 <body>
 <nav>
@@ -13,6 +13,7 @@
         <a href="index.php">
             <img src="billeder/nytlogo.png" class="logo">
         </a>
+
         <li>
             <a href="#">Madspild</a>
             <ul class="dropdown">
@@ -20,6 +21,7 @@
                 <li><a href="supermarkeder.php">Supermarkeder</a></li>
             </ul>
         </li>
+
         <li>
             <a href="#">Retter og måltider</a>
             <ul class="dropdown">
@@ -35,22 +37,9 @@
 <section class="bjælke1">
 </section>
 
-<h1>Opskrifter</h1>
+<h1> UNDER UDVIKLING... </h1>
 
-<div>
-    <img src="billeder/tomatsalatmozzarella.jpg" class="opskrifter">
-    <div class="tomat">Tomassalat med mozzarella</div>
-    <img src="billeder/lynpizza.jpg" class="opskrifter">
-    <div class="pizza">Lyn-pizza med lufttørret skinke og friske tomater</div>
-    <img src="billeder/cremetdipmedtomat.jpg" class="opskrifter">
-    <div class="cremetdip">Cremet dip med tomatsalat</div>
-    <img src="billeder/bruschetta.jpg" class="opskrifter">
-    <div class="bruschetta">Bruschetta med hvidløg og olivenolie</div>
-    <img src="billeder/tærte.jpg" class="opskrifter">
-    <div class="tærte">Tærte ala Ratatouille</div>
-    <img src="billeder/fetapastamedtomat.jpg" class="opskrifter">
-    <div class="feta">Feta pasta med tomat</div>
-</div>
+<img src="billeder/smiley.png" class="smiley">
 
 <footer>
     <img src="billeder/køge.png" class="køgelogo">
