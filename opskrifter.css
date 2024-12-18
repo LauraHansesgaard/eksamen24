@@ -67,124 +67,63 @@
         height: 50px;
     }
 
-    .rema{
-        width: 350px;
-        margin-top: 30px;
-        margin-left: 20px;
+    .opskrifter{
+        width: 150px;
+        margin-left: 43px;
+        margin-bottom: 150px;
     }
 
     h1{
-        font-size: 10px;
-        color: #1F3A20;
-        font-family: Helvetica;
-        margin-top: 40px;
-        margin-left: 40px;
-        margin-right: 50px;
-        margin-bottom: 30px;
-        font-weight: lighter;
-    }
-
-    .overskrift{
-        font-size: 11px;
-        margin-left: 40px;
+        margin-left: 140px;
         margin-top: 80px;
-        margin-bottom: 20px;
-        font-weight: bold;
-
+        margin-bottom: 80px;
     }
 
-    .information{
-        margin-left: 40px;
-        margin-right: 200px;
-        font-family: Helvetica;
-        font-weight: normal;
+    .tomat{
+        position: absolute;
+        margin-left: 43px;
+        margin-top: -140px;
         font-size: 10px;
     }
 
-    .klistermærke{
-        width: 145px;
-        margin-left: 88px;
-        margin-top: -65px;
+    .pizza{
+        position: absolute;
+        margin-top:-140px;
+        margin-left: 240px;
+        margin-right: 20px;
+        font-size: 10px;
     }
 
-    .klistermærke2{
-        width: 120px;
-        margin-left: 13px;
-        margin-top: 100px;
-
+    .cremetdip{
+        position: absolute;
+        margin-left: 43px;
+        margin-top: -140px;
+        font-size: 10px;
     }
 
-    .overskrift2{
-        font-size: 17px;
-        margin-left: 200px;
-        margin-top: -230px;
-        margin-bottom: 40px;
-        font-weight: bold;
-        margin-right: 70px;
-    }
-
-
-    .information2{
-        margin-left: 200px;
+    .bruschetta{
+        position: absolute;
+        margin-left: 240px;
+        margin-top: -140px;
         margin-right: 30px;
-        font-weight: normal;
-        font-size: 10px;
-        margin-top: -15px;
-    }
-
-    .klistermærke3{
-        width: 120px;
-        margin-left: 98px;
-        margin-top: 80px;
-
-    }
-
-    .overskrift3{
-        font-size: 17px;
-        margin-left: 40px;
-        margin-right: 50px;
-        margin-top: -190px;
-        margin-bottom: 30px;
-        font-weight: bold;
-    }
-
-
-    .information3{
-        margin-left: 40px;
-        margin-right: 150px;
-        margin-top: 20px;
-        font-weight: normal;
         font-size: 10px;
     }
 
-    .klistermærke4{
-        width: 120px;
-        margin-left: 13px;
-        margin-top: 70px;
-        margin-bottom: 350px;
-    }
-
-    .overskrift4{
-        font-size: 17px;
-        margin-left: 200px;
-        margin-top: -820px;
-        margin-bottom: 150px;
-        margin-right: 40px;
-        font-weight: bold;
-    }
-
-
-    .information4{
-        margin-left: 200px;
-        margin-right: 40px;
-        margin-top: -120px;
-        font-weight: normal;
+    .tærte{
+        position: absolute;
+        margin-left: 43px;
+        margin-top: -140px;
         font-size: 10px;
-        margin-bottom: 150px;
-
     }
 
-    footer {
+    .feta{
+        position: absolute;
+        margin-left: 240px;
+        margin-top: -140px;
+        font-size: 10px;
+    }
+
+    footer{
         background-color: #557D56;
         margin-top: 100px;
         position: relative;
@@ -289,10 +228,11 @@
     }
 }
 
-@media (min-width: 769px){
+@media (min-width: 769px) {
     nav {
         padding: 10px 20px;
     }
+
     ul {
         list-style: none;
         margin: 0;
@@ -300,17 +240,19 @@
         display: flex;
     }
 
-    .logo{
+    .logo {
         width: 130px;
         padding: 10px;
         margin-left: -110px;
         margin-top: -50px;
     }
+
     li {
         position: relative; /* Needed for positioning the dropdown */
         margin-right: 20px;
         margin-top: 20px;
     }
+
     a {
         text-decoration: none;
         color: #1F3A20;
@@ -349,121 +291,62 @@
         height: 50px;
     }
 
-    .rema{
-        width: 650px;
-        margin-left: 90px;
-        margin-top: 60px;
+    .opskrifter{
+        width: 300px;
+        margin-left: 150px;
+        margin-bottom: 150px;
     }
+
 
     h1{
-        font-size: 20px;
-        color: #1F3A20;
-        margin-top: 100px;
-        margin-left: 120px;
-        margin-right: 180px;
-        margin-bottom: 150px;
-        font-weight: normal;
-    }
-
-    .overskrift{
-        font-size: larger;
-        margin-left: 120px;
+        margin-left: 150px;
         margin-top: 80px;
-        margin-bottom: 20px;
-        font-weight: bold;
-
+        margin-bottom: 80px;
     }
 
-    .information{
-        margin-left: 120px;
-        margin-right: 400px;
-        font-family: Helvetica;
-        font-weight: normal;
+    .tomat{
+        position: absolute;
+        margin-left: 150px;
+        margin-top: -140px;
         font-size: 20px;
     }
 
-    .klistermærke{
-        width: 190px;
-        margin-left: 230px;
-        margin-top: -80px;
-    }
-
-    .klistermærke2{
-        width: 160px;
-        margin-left: 40px;
-        margin-top: 110px;
-
-    }
-
-    .overskrift2{
-        font-size: x-large;
-        margin-left: 400px;
-        margin-top: -270px;
-        margin-bottom: 40px;
-        font-weight: bold;
-    }
-
-
-    .information2{
-        margin-left: 400px;
-        margin-right: 160px;
-        font-family: Helvetica;
-        font-weight: normal;
+    .pizza{
+        position: absolute;
+        margin-top:-140px;
+        margin-left: 605px;
+        margin-right: 120px;
         font-size: 20px;
     }
 
-    .klistermærke3{
-        width: 180px;
-        margin-left: 240px;
-        margin-top: 90px;
-
-    }
-
-    .overskrift3{
-        font-size: x-large;
-        margin-left: 120px;
-        margin-right: 400px;
-        margin-top: -230px;
-        margin-bottom: 30px;
-        font-weight: bold;
-    }
-
-
-    .information3{
-        margin-left: 120px;
-        margin-right: 420px;
-        margin-top: 20px;
-        font-family: Helvetica;
-        font-weight: normal;
+    .cremetdip{
+        position: absolute;
+        margin-left: 150px;
+        margin-top: -140px;
         font-size: 20px;
     }
 
-    .klistermærke4{
-        width: 180px;
-        margin-left: 40px;
-        margin-top: 105px;
-        margin-bottom: 350px;
-    }
-
-    .overskrift4{
-        font-size: x-large;
-        margin-left: 500px;
-        margin-top: -870px;
-        margin-bottom: 150px;
-        font-weight: bold;
-    }
-
-
-    .information4{
-        margin-left: 500px;
-        margin-right: 80px;
-        margin-top: -120px;
-        font-weight: normal;
+    .bruschetta{
+        position: absolute;
+        margin-left: 605px;
+        margin-top: -140px;
+        margin-right: 120px;
         font-size: 20px;
-        margin-bottom: 150px;
-
     }
 
+    .tærte{
+        position: absolute;
+        margin-left: 150px;
+        margin-top: -140px;
+        font-size: 20px;
+    }
+
+    .feta{
+        position: absolute;
+        margin-left: 605px;
+        margin-top: -140px;
+        font-size: 20px;
+    }
 
     footer {
         background-color: #557D56;
@@ -629,128 +512,59 @@
         height: 50px;
     }
 
-    .rema {
-        width: 900px;
-        margin-left: 160px;
-        margin-top: 60px;
+    .opskrifter{
+        width: 450px;
+        margin-left: 200px;
+        margin-bottom: 150px;
     }
 
 
-    h1 {
-        font-size: 25px;
-        color: #1F3A20;
-        margin-top: 100px;
-        margin-left: 160px;
-        margin-right: 200px;
-        font-weight: normal;
+    h1{
+        margin-left: 200px;
+        margin-top: 80px;
+        margin-bottom: 80px;
     }
 
-    h2 {
-        font-size: xx-large;
-        margin-left: 0px;
-        margin-top: 90px;
-        margin-bottom: 60px;
+    .tomat{
+        position: absolute;
+        margin-left: 200px;
+        margin-top: -140px;
+        font-size: 20px;
     }
 
-    .overskrift {
-        font-size: larger;
-        margin-left: 160px;
-        margin-top: 150px;
-        font-weight: bold;
+    .pizza{
+        position: absolute;
+        margin-top:-140px;
+        margin-left: 855px;
+        font-size: 20px;
     }
 
-    .information {
-        margin-left: 160px;
-        margin-right: 800px;
-        font-family: Helvetica;
-        font-weight: lighter;
-        font-size: 25px;
+    .cremetdip{
+        position: absolute;
+        margin-left: 200px;
+        margin-top: -140px;
+        font-size: 20px;
     }
 
-    .klistermærke {
-        width: 380px;
-        margin-left: 320px;
-        margin-top: -150px;
-
+    .bruschetta{
+        position: absolute;
+        margin-left: 855px;
+        margin-top: -140px;
+        font-size: 20px;
     }
 
-    .klistermærke2 {
-        width: 320px;
-        margin-left: 30px;
-        margin-top: 130px;
-
+    .tærte{
+        position: absolute;
+        margin-left: 200px;
+        margin-top: -140px;
+        font-size: 20px;
     }
 
-    .overskrift2 {
-        font-size: xx-large;
-        margin-left: 800px;
-        margin-top: -390px;
-        margin-bottom: 60px;
-        font-size: xx-large;
-        font-weight: bold;
-    }
-
-
-    .information2 {
-        margin-left: 800px;
-        margin-right: 80px;
-        margin-top: 0px;
-        font-family: Helvetica;
-        font-weight: lighter;
-        font-size: 25px;
-    }
-
-
-    .klistermærke3 {
-        width: 350px;
-        margin-left: 335px;
-        margin-top: 130px;
-
-    }
-
-    .overskrift3 {
-        font-size: xx-large;
-        margin-left: 160px;
-        margin-top: -350px;
-        margin-bottom: 60px;
-        font-size: xx-large;
-        font-weight: bold;
-    }
-
-
-    .information3 {
-        margin-left: 160px;
-        margin-right: 800px;
-        margin-top: 20px;
-        font-weight: lighter;
-        font-size: 25px;
-    }
-
-
-    .klistermærke4 {
-        width: 330px;
-        margin-left: 35px;
-        margin-top: 130px;
-        margin-bottom: 280px;
-    }
-
-    .overskrift4 {
-        font-size: xx-large;
-        margin-left: 800px;
-        margin-top: -840px;
-        margin-bottom: 60px;
-        font-size: xx-large;
-        font-weight: bold;
-    }
-
-
-    .information4 {
-        margin-left: 800px;
-        margin-right: 80px;
-        margin-top: -40px;
-        font-weight: lighter;
-        font-size: 25px;
-        margin-bottom: 170px;
+    .feta{
+        position: absolute;
+        margin-left: 855px;
+        margin-top: -140px;
+        font-size: 20px;
     }
 
 
@@ -761,13 +575,13 @@
         width: 100%;
     }
 
-    .køgelogo {
+    .køgelogo{
         width: 160px;
         background-color: #557D56;
         margin-left: 100px;
     }
 
-    .line {
+    .line{
         background-color: #1F3A20;
         height: 2px;
         width: 200px;
@@ -775,7 +589,7 @@
         margin-left: 155px;
     }
 
-    h3 {
+    h3{
         background-color: #557D56;
         color: #1F3A20;
         font-size: 23px;
@@ -783,7 +597,7 @@
         margin-top: 5px;
     }
 
-    h4 {
+    h4{
         background-color: #557D56;
         font-size: 15px;
         font-weight: normal;
@@ -791,14 +605,14 @@
     }
 
 
-    h6 {
+    h6{
         background-color: #557D56;
         font-size: 15px;
         font-weight: normal;
         margin-left: 155px;
     }
 
-    .følg {
+    .følg{
         position: absolute;
         margin-left: 1100px;
         margin-top: -225px;
@@ -806,13 +620,13 @@
         color: #1F3A20;
     }
 
-    .socialemedier {
+    .socialemedier{
         background-color: #557D56;
         margin-bottom: -6px;
         padding-top: 20px;
     }
 
-    .personligeoplysninger {
+    .personligeoplysninger{
         background-color: #557D56;
         position: absolute;
         margin-left: 1100px;
@@ -822,7 +636,7 @@
         font-size: 12px;
     }
 
-    .betingelser {
+    .betingelser{
         background-color: #557D56;
         position: absolute;
         margin-left: 950px;
@@ -832,7 +646,7 @@
         font-size: 12px;
     }
 
-    .politik {
+    .politik{
         background-color: #557D56;
         position: absolute;
         margin-left: 825px;
@@ -842,7 +656,7 @@
         font-size: 12px;
     }
 
-    .cookies {
+    .cookies{
         background-color: #557D56;
         position: absolute;
         margin-left: 650px;
@@ -850,7 +664,8 @@
         margin-top: -20px;
         color: #1F3A20;
         font-size: 12px;
-
-
     }
 }
+
+
+
