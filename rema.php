@@ -24,11 +24,11 @@
             <a href="#">Retter og måltider</a>
             <ul class="dropdown">
                 <li><a href="madgenerator.php">Madgenerator</a></li>
-                <li><a href="#">Madplaner</a></li>
+                <li><a href="madplan.php">Madplaner</a></li>
             </ul>
         </li>
-        <li><a href="#">Donationsbank</a></li>
-        <li><a href="#">Madpyramiden</a></li>
+        <li><a href="donationsbank.php">Donationsbank</a></li>
+        <li><a href="madpyramiden.php">Madpyramiden</a></li>
     </ul>
 </nav>
 
