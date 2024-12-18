@@ -3,80 +3,213 @@
     margin: 0px;
     font-family: "Helvetica Neue";
 }
-nav {
-    padding: 10px 20px;
-}
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+
+/* Breakpoint for tablets (768px og mindre) */
+@media (max-width: 768px){
+
+
 }
 
-.logo{
-    width: 100px;
-    padding: 10px;
-    margin-left: -170px;
-    margin-top: -25px;
-}
-li {
-    position: relative; /* Needed for positioning the dropdown */
-    margin-right: 20px;
-    margin-top: 20px;
-}
-a {
-    text-decoration: none;
-    color: #1F3A20;
-    font-size: 18px;
-    display: block;
-    font-weight: bolder;
-    margin-left: 170px;
-    margin-top: 30px;
+
+
+@media (min-width: 769px){
+
+
 }
 
-/* Dropdown Menu Styles */
-.dropdown {
-    display: none; /* Hidden by default */
-    position: absolute;
-    padding-bottom: 15px;
-    list-style: none;
-    top: 100%; /* Position dropdown below the parent */
-    left: 100px;
-}
+/* Breakpoint for desktops (1024px og større) */
+@media (min-width: 1025px) {
+    nav{
+        padding: 10px 20px;
+    }
 
-.dropdown a {
-    color: #1F3A20;
-    font-weight: normal;
-    margin-left: 70px;
-}
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
 
-/* Show Dropdown on Hover */
-li:hover .dropdown {
-    display: block; /* Show the dropdown */
-}
+    .logo {
+        width: 100px;
+        padding: 10px;
+        margin-left: -170px;
+        margin-top: -25px;
+    }
 
-.bjælke1{
-    background-color: #557D56;
-    height: 50px;
-}
+    li {
+        position: relative; /* Needed for positioning the dropdown */
+        margin-right: 20px;
+        margin-top: 20px;
+    }
 
-h1{
-    font-size: 20px;
-    margin-top: 60px;
-    margin-left: 360px;
-}
+    a {
+        text-decoration: none;
+        color: #1F3A20;
+        font-size: 18px;
+        display: block;
+        font-weight: bolder;
+        margin-left: 170px;
+        margin-top: 30px;
+    }
 
-.indtast{
-    margin-left: 360px;
-    margin-top: 100px;
-}
+    /* Dropdown Menu Styles */
+    .dropdown {
+        display: none; /* Hidden by default */
+        position: absolute;
+        padding-bottom: 15px;
+        list-style: none;
+        top: 100%; /* Position dropdown below the parent */
+        left: 100px;
+    }
 
-.indtast2{
-    margin-left: 616px;
-    margin-top: -196px;
-}
+    .dropdown a {
+        color: #1F3A20;
+        font-weight: normal;
+        margin-left: 70px;
+    }
 
-.knap{
-    margin-left: 300px;
-    margin-top: 50px;
+    /* Show Dropdown on Hover */
+    li:hover .dropdown {
+        display: block; /* Show the dropdown */
+    }
+
+    .bjælke1 {
+        background-color: #557D56;
+        height: 50px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-top: 80px;
+        margin-left: 310px;
+        font-weight: normal;
+    }
+
+    input {
+        width: 300px;
+        height: 50px;
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+
+    .indtast {
+        margin-left: 310px;
+        margin-top: 100px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+
+    .indtast2 {
+        margin-left: 616px;
+        margin-top: -300px;
+        font-weight: bold;
+    }
+
+    .knap {
+        margin-left: 300px;
+        margin-top: 100px;
+        margin-bottom: 150px;
+    }
+
+    footer {
+        background-color: #557D56;
+        padding: 20px 0;
+        position: relative;
+        width: 100%;
+    }
+
+    .køgelogo{
+        width: 160px;
+        background-color: #557D56;
+        margin-left: 100px;
+    }
+
+    .line{
+        background-color: #1F3A20;
+        height: 2px;
+        width: 200px;
+        border-radius: 10px;
+        margin-left: 155px;
+    }
+
+    h3{
+        background-color: #557D56;
+        color: #1F3A20;
+        font-size: 23px;
+        margin-left: 155px;
+        margin-top: 5px;
+    }
+
+    h4{
+        background-color: #557D56;
+        font-size: 15px;
+        font-weight: normal;
+        margin-left: 155px;
+    }
+
+
+    h6{
+        background-color: #557D56;
+        font-size: 15px;
+        font-weight: normal;
+        margin-left: 155px;
+    }
+
+    .følg{
+        position: absolute;
+        margin-left: 1100px;
+        margin-top: -225px;
+        font-size: 23px;
+        color: #1F3A20;
+    }
+
+    .socialemedier{
+        background-color: #557D56;
+        margin-bottom: -6px;
+        padding-top: 20px;
+    }
+
+    .personligeoplysninger{
+        background-color: #557D56;
+        position: absolute;
+        margin-left: 1100px;
+        text-decoration: underline;
+        margin-top: -20px;
+        color: #1F3A20;
+        font-size: 12px;
+    }
+
+    .betingelser{
+        background-color: #557D56;
+        position: absolute;
+        margin-left: 950px;
+        text-decoration: underline;
+        margin-top: -20px;
+        color: #1F3A20;
+        font-size: 12px;
+    }
+
+    .politik{
+        background-color: #557D56;
+        position: absolute;
+        margin-left: 825px;
+        text-decoration: underline;
+        margin-top: -20px;
+        color: #1F3A20;
+        font-size: 12px;
+    }
+
+    .cookies{
+        background-color: #557D56;
+        position: absolute;
+        margin-left: 650px;
+        text-decoration: underline;
+        margin-top: -20px;
+        color: #1F3A20;
+        font-size: 12px;
+    }
 }

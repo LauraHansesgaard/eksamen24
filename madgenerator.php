@@ -75,6 +75,39 @@
     </form>
 </div>
 
+
+<footer>
+    <img src="billeder/køge.png" class="køgelogo">
+    <div class="line">
+        <div></div>
+    </div>
+    <h3>KØGE KOMMUNE</h3>
+    <br>
+    <h4>Køge Kommune <br><br> Torvet 1 <br><br> DK-4600 Køge <br><br> CVR-nr. 29189374</h4>
+    <br>
+    <br>
+    <h6>&copy; Bekæmp Madspild.</h6>
+
+    <div class="følg">
+        <h5 style="background-color: #557D56">FØLG</h5>
+        <img src="billeder/socialemedier.png" class="socialemedier">
+    </div>
+
+    <div class="personligeoplysninger">
+        Håndtering af personlige oplysninger
+    </div>
+    <div class="betingelser">
+        Betingelser for brug
+    </div>
+    <div class="politik">
+        Cookie politik
+    </div>
+    <div class="cookies">
+        Vælg en anden cookies
+    </div>
+</footer>
+
+
 <script>
     /*den validerer vores form*/
     function validateForm() {
