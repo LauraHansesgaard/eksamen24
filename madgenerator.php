@@ -19,7 +19,7 @@
             <a href="#">Madspild</a>
             <ul class="dropdown">
                 <li><a href="#">Tips og tricks</a></li>
-                <li><a href="#">Supermarkeder</a></li>
+                <li><a href="supermarkeder.php">Supermarkeder</a></li>
             </ul>
         </li>
         <li>
