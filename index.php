@@ -11,7 +11,7 @@
 
 <nav>
     <ul>
-        <a href="prøver.php">
+        <a href="index.php">
             <img src="billeder/nytlogo.png" class="logo">
         </a>
 
